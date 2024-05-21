@@ -1,0 +1,67 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.header{
+    color: #000;
+    font-size: 80px;
+    font-weight: 800;
+    padding-left: 150px;
+    margin-bottom: 0px;
+    text-shadow: 0 0 3px #0000FF, 0 0 6px #c300ff;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.scoreup{
+    color: #000;
+    font-size: 50px;
+    padding-left: 150px;
+    text-shadow: 0 0 3px #0000FF, 0 0 6px #c300ff;
+}
+#canvas{
+    position: absolute;
+    top: -155px;
+    left: 700px;
+}
+#restartButton{
+    padding: 10px;
+    width: 200px;
+    background-color: #000;
+    border-radius: 50px;
+    border: 1px solid #0000FF;
+    box-shadow: 0 0 10px #c300ff;
+    position: absolute;
+    opacity: 0;
+    bottom: 180px;
+    left: 173px;
+    color: #fff;
+    cursor: pointer;
+}
+.btext{
+    font-size: 20px;
+}
+#youlost{
+    position: absolute;
+    opacity: 0;
+    color: #000;
+    font-size: 50px;
+    padding-left: 150px;
+    text-shadow: 0 0 3px #0000FF, 0 0 6px #c300ff;
+    bottom: 20px;
+}
+#youwon{
+    position: absolute;
+    opacity: 0;
+    color: #000;
+    font-size: 50px;
+    padding-left: 150px;
+    text-shadow: 0 0 3px #0000FF, 0 0 6px #c300ff;
+    bottom: 20px;
+}
